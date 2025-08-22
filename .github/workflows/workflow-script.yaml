@@ -1,0 +1,17 @@
+name: Run script on Main BR
+on:
+  push:
+   branches:
+     - main
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout code
+        uses: actions/checkout@v3
+      - name: script executable
+        run: chmod +x ./workflow-script.sh
+      - name: run this script
+        run: ./workflow-script.sh
