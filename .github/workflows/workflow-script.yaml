@@ -14,4 +14,4 @@ jobs:
       - name: script executable
         run: chmod +x f2.sh
       - name: run this script
-        run: f2.sh
+        run: ./f2.sh
