@@ -1,6 +1,6 @@
 #!/usr/bin/sh
 echo
-dmidecode -t system
+echo "Hello w0rld!!"
 echo
 ls -l
 echo

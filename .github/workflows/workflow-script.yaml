@@ -12,6 +12,6 @@ jobs:
       - name: checkout code
         uses: actions/checkout@v3
       - name: script executable
-        run: chmod +x ./workflow-script.sh
+        run: chmod +x f2.sh
       - name: run this script
-        run: ./workflow-script.sh
+        run: f2.sh
